@@ -1,11 +1,26 @@
 
+Jaunais Laravel projekts ar Vite, kurā iekļauts jQuery un jQuery-ui, bootstrap
 Kā šitais top.
-laravel new vite-jquery-ui // te uzinstalējam pliku projektu
+1. Varam git clone šo repozitoriju un tad iet uz so projektu
+```shell
 cd vite-jquery-ui
+```
+2. Vai arī izveidojam jaunu Laravel projektu
+```shel
+laravel new vite-jquery-ui // te uzinstalējam pliku projektu
+```
+```shell
+cd vite-jquery-ui
+```
+```shell
 npm install jquery // instalējam jquery
+```
+```shell
 npm i --save bootstrap @popperjs/core // instalējam bootstrap
+```
+```shell
 npm i --save-dev sass // instalējam bootstrap dependencies
-
+```
 Apciemojam jquery-ui saiti: https://jqueryui.com/download/ un lejupielādējam vajadzīgo versiju
 Izvelkam failus un ieliekam resources/js un resources/css mapēs
 Faili, ko izvelkam ir jquery-ui.min.js un jquery-ui.css, jquery-ui.theme.css, 
